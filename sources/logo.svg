@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="25px" height="25px" role="img" aria-label="Website logo">
+  <style>
+    svg {
+      fill: #EEA302;
+      overflow: visible;
+    }
+  </style>
+  <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z" />
+</svg>
