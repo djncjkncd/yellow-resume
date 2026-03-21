@@ -886,7 +886,12 @@ a {
 ---------- RESPONSIVE: MOBILE VERSION --
 ----------------------------------------
 **/
-@media (max-width: 320px) {
+/* @media (max-width: 320px) { */
+@media (max-width: 550px) {
+  html {
+    zoom: calc(100vw / 320px);
+  }
+
   .min-w-980 {
     min-width: auto;
   }
