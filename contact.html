@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300..600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wdth,wght,YTLC@6..12,89.8..101,300..600,455&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wdth,wght,YTLC@6..12,89.8..101,300..600,455&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="sources/favicon/favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="sources/favicon/favicon-96x96.png">
@@ -79,49 +82,37 @@
       </div>
     </section>
 
-    <form class="contact-form" method="get" novalidate>
+    <form class="contact-form flex-col" method="get" novalidate>
       <div class="form-row">
-        <div class="form-field">
+        <div class="form-field flex-col">
           <label for="first-name">First Name <span aria-hidden="true">*</span></label>
-          <input
-            type="text"
-            id="first-name"
-            name="first-name"
-            aria-describedby="first-name-error"
-            autocomplete="given-name"
-            required
-          />
+          <input type="text" id="first-name" name="first-name" aria-describedby="first-name-error"
+            autocomplete="given-name" required />
           <p id="first-name-error" class="error-message">Enter a first name.</p>
         </div>
 
-        <div class="form-field">
+        <div class="form-field flex-col">
           <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
-          <input
-            type="text"
-            id="last-name"
-            name="last-name"
-            aria-describedby="last-name-error"
-            autocomplete="family-name"
-            required
-            />
+          <input type="text" id="last-name" name="last-name" aria-describedby="last-name-error"
+            autocomplete="family-name" required />
           <p id="last-name-error" class="error-message">Enter a last name.</p>
         </div>
       </div>
 
       <div class="form-row">
-        <div class="form-field">
+        <div class="form-field flex-col">
           <label for="email">Email <span aria-hidden="true">*</span></label>
           <input type="email" id="email" name="email" aria-describedby="email-error" autocomplete="email" required />
           <p id="email-error" class="error-message">Enter an email address like <br />example@mysite.com.</p>
         </div>
 
-        <div class="form-field">
+        <div class="form-field flex-col">
           <label for="subject">Subject</label>
           <input type="text" id="subject" name="subject" />
         </div>
       </div>
 
-      <div class="form-message">
+      <div class="form-message flex-col">
         <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>
       </div>
@@ -130,7 +121,7 @@
     </form>
   </main>
 
-  <footer class="min-w-980 site-footer">
+  <footer class="min-w-980 site-footer flex-col">
     <hr class="site-footer-line" />
 
     <div class="site-footer-main">
@@ -170,4 +161,5 @@
     </div>
   </footer>
 </body>
+
 </html>
