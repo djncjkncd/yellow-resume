@@ -874,7 +874,7 @@ a {
   html {
     zoom: calc(100vw / 320px);
   }
-  
+
   .min-w-980 {
     min-width: auto;
   }
@@ -1197,12 +1197,12 @@ a {
   .skills .resume-group {
     translate: -11px 1px;
   }
-  
+
   .skills li {
     width: 25ch;
     translate: 0;
   }
-  
+
   @keyframes fade {
     to {
       pointer-events: all;
@@ -1221,13 +1221,13 @@ a {
     animation-timeline: scroll();
     animation-range: 44% 47%;
   }
-  
+
   .back-to-top img {
     display: block;
     width: 44px;
     height: 44px;
   }
-  
+
   /**
   ------------------------------------
   ---------- PAGE: PROJECTS ----------
