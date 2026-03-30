@@ -1,0 +1,5 @@
+# 04/03/26
+- ajout de l'extension Stylelint (linter)
+- installation de deux dépendances (stylelint-order (déplacer la ligne de code) & stylelint-config-recess-order (modèle recess)):
+  - npm install --save-dev stylelint stylelint-order stylelint-config-recess-order
+- npx stylelint "**/*.css" --fix (cibler tous les fichiers css juste qu'à la dernière branche de l'arborescence)
